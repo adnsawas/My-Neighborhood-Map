@@ -2,7 +2,7 @@
 
 This website is an application showing few places in my neighborhood using Google Maps and Forsquare API's as feed for the application. This project was part of Udacity training in Front-end web development nano degree program to learn React framework.
 
-## TL;DR
+## 
 
 To run the website:
 * Open the terminal and cd to current project folder
