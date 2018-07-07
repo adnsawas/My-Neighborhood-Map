@@ -1,0 +1,68 @@
+
+.App-header {
+  width: 100%;
+  background-color: darkgreen;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  z-index: 10;
+  opacity: 0.6;
+}
+
+.App-title {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.8em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+/* The sidebar menu */
+.sidenav {
+    /* width: auto; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 2; /* Stay on top */
+    background-color: #bbb; /* Black */
+    font-size: 20px;
+    margin: 50px;
+}
+
+.sidenav ul {
+  padding-left: 0px;
+  margin: 0;
+}
+
+/* The navigation menu links */
+.sidenav li {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav li:hover {
+    color: white;
+    background-color: green;
+}
+
+.sidenav .filter-field {
+  font-size: 20px;
+  margin: 10px;
+  max-width: -webkit-fill-available;
+  width: 100%;
+}
+
+#map-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav li {font-size: 18px;}
+}
