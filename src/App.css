@@ -7,7 +7,6 @@
   margin: 0;
   text-align: center;
   z-index: 10;
-  opacity: 0.6;
 }
 
 .App-title {
@@ -62,7 +61,21 @@
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav li {font-size: 18px;}
+@media screen and (max-width: 450px) {
+
+  .App-title {
+    font-size: 1.4em;
+  }
+
+  .sidenav {
+    opacity: 0.8;
+    font-size: 13px;
+    width: -webkit-fill-available;
+  }
+
+  .sidenav .filter-field {
+    font-size: 13px;
+    margin: 5px;
+  }
+
 }
